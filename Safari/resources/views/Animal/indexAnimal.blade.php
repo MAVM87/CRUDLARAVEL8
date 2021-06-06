@@ -56,8 +56,9 @@
     @endforeach
     </tbody>
 </table>
-<a href="{{ url('Animal/create') }}" class="btn btn-success">Crear Nuevo Animal </a>
 
 {!! $animales->links() !!}
+
+<a href="{{ url('Animal/create') }}" class="btn btn-success">Crear Nuevo Animal </a>
 </div>
 @endsection

@@ -46,8 +46,8 @@ class AnimalController extends Controller
             'Nombre'=>'required|string|max:100',
             'Familia'=>'required|string|max:100',
             'Genero'=>'required|string|max:100',
-            'Foto'=>'required|max:1000|mimes:jpeg,png,jpg',
-            'recintos_id'=>'required|numeric|max:1000',
+            'Foto'=>'required|max:100000|mimes:jpeg,png,jpg',
+            'recintos_id'=>'required|numeric|max:100000',
         ];
 
         $mensaje=[
