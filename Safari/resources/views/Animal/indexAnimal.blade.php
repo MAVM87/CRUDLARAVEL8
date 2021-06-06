@@ -15,7 +15,7 @@
 <h1 class="text-md-center"><strong>Lista de Animales</strong></h1>
 
 <br>
-<table class="table table-dark text-md-center shadow">
+<table class="table table striped table-dark text-md-center shadow">
 
     <thead class="thead-dark">
         <tr>
